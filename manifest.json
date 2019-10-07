@@ -1,13 +1,1 @@
-{
-  "name": "Darkmode",
-  "version": "0.0.1",
-  "manifest_version": 2,
-  "description": "Darkmode in just a few lines",
-  "content_scripts": [
-    {
-      "matches": [ "*://*/*" ], 
-      "css": ["darkmode.css"]
-    }
-  ],
-  "permissions": [ "tabs", "*://*/*" ]
-}
+{ "name": "Darkmode", "version": "0.0.1", "manifest_version": 2, "description": "Darkmode in just a few lines", "content_scripts": [ { "matches": [ "*://*/*" ], "css": ["darkmode.css"] } ], "permissions": [ "tabs", "*://*/*" ] }

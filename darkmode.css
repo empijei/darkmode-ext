@@ -1,3 +1,7 @@
-html { filter: invert() hue-rotate(180deg) contrast(80%); }
-html img { filter: invert() hue-rotate(180deg) contrast(100%); }
-body { background: black !important; }
+.invert {
+    filter: invert() hue-rotate(180deg) contrast(80%);
+    background: black;
+}
+.invert img {
+    filter: invert() hue-rotate(180deg) contrast(100%);
+}

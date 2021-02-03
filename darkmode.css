@@ -1,6 +1,7 @@
 .invert {
     filter: invert() hue-rotate(180deg) contrast(80%);
     background: black;
+    background-image: none !important;
 }
 .invert img {
     filter: invert() hue-rotate(180deg) contrast(100%);
